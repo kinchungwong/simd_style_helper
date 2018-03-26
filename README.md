@@ -16,3 +16,23 @@ source code that needs to be maintained in algorithms.
 A stretch goal is to find a forward path toward 256-bit and 512-bit (AVX256, AVX512) without requiring
 complete rewrite of most algorithms already on universal intrinsics.
 
+## Reading of existing code in OpenCV
+
+ * opencv/modules/core/include/opencv2/core/hal/intrin.hpp
+ * opencv/modules/core/include/opencv2/core/hal/intrin_sse.hpp
+ * opencv/modules/core/include/opencv2/core/hal/intrin_neon.hpp
+ * opencv/modules/core/include/opencv2/core/hal/intrin_vsx.hpp
+ * opencv/modules/core/include/opencv2/core/hal/intrin_cpp.hpp
+ * opencv/modules/core/src/arithm_simd.hpp
+ * opencv/modules/core/src/arithm_core.hpp
+
+## Future directions
+
+### AVX 256-bit and 512-bit
+
+### ARM scalable vector extension (SVE)
+
+ * https://community.arm.com/processors/b/blog/posts/technology-update-the-scalable-vector-extension-sve-for-the-armv8-a-architecture
+ 
+### Other architectures with plans to move beyond 128-bit vectors
+
