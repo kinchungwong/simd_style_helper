@@ -4,6 +4,8 @@ C++ headers, templates, and inline methods for easy-to-understand explicit SIMD 
 
 ## Status
 
+***NOTE: this repository is deprecated.***
+
 The code will be converted into using OpenCV universal intrinsics.
 
 Next, the direction will be to focus on what enhancements could be brought into OpenCV universal intrinsics 
